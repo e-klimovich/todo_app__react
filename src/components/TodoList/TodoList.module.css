@@ -1,0 +1,21 @@
+
+.content {
+  display: flex;
+  background-color: rgb(230, 230, 230);
+  padding: 0.5em;
+  color: #4E5D68FF;
+  border-radius: 3px;
+  transition: 0.5s;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.removeButton {
+  all: unset;
+  color: red;
+}
+
+.content:hover {
+  color: rgb(62, 72, 80);
+  background-color: rgb(196, 194, 194);
+}
